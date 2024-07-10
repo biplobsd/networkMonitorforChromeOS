@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Network Monitor",
+  "version": "1.0",
+  "description": "A Chrome App for monitoring network data.",
+  "permissions": [
+    "notifications",
+    "background",
+    "storage"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
